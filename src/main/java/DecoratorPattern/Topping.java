@@ -6,4 +6,6 @@ public abstract class Topping {
 
     protected Bread bread;
 
+    public void addTopping(){
+    }
 }
