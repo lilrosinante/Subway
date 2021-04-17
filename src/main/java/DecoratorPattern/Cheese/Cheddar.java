@@ -12,4 +12,7 @@ public class Cheddar extends Cheese {
     @Override
     public void addTopping(){bread.getToppings().add("Cheddar");}
 
+    @Override
+    public double cost(){return 1;}
+
 }
