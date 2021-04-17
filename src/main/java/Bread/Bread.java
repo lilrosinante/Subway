@@ -6,7 +6,7 @@ public abstract class Bread {
 
     protected String name;
     protected double price;
-    private ArrayList<String> toppings;
+    private ArrayList<String> toppings = new ArrayList<>();
 
     public String getName() {
         return name;

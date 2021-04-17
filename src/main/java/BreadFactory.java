@@ -10,9 +10,9 @@ public class BreadFactory {
         Bread bread;
 
         if(type == BreadType.HONEYOAT){
-            bread = new HoneyOat();
+            bread = new HoneyOat("Honey Oat Bread", 2.5);
         } else if(type == BreadType.CHEESEOREGANO){
-            bread = new CheeseOregano();
+            bread = new CheeseOregano("Cheese Oregano", 3);
         } else {
             bread = null;
         }
