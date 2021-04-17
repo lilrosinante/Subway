@@ -10,9 +10,10 @@ public class Cucumber extends Salad{
     }
 
     @Override
-    public void addTopping(){bread.getToppings().add("Cucumber");}
+    public void addTopping(){bread.getToppings().add("Cucumber");
+    }
 
     @Override
-    public double cost(){return 0.6;}
+    public double cost(){return 0.6 + bread.cost();}
 
 }

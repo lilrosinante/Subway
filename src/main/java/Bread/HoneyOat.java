@@ -7,11 +7,13 @@ public class HoneyOat extends Bread {
     public HoneyOat() {
     }
 
-    public HoneyOat(String name, double price){
-        this.oatType = "honeyOat";
+    public HoneyOat(String name){
+        this.oatType = "HoneyOat";
         this.name = name;
-        this.price = price;
     }
+
+    @Override
+    public double cost(){return 2.5;}
 
     public String getOatType() {
         return oatType;

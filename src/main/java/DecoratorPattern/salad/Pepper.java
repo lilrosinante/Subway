@@ -10,8 +10,9 @@ public class Pepper extends Salad {
     }
 
     @Override
-    public void addTopping(){bread.getToppings().add("Pepper");}
+    public void addTopping(){bread.getToppings().add("Pepper");
+    }
 
     @Override
-    public double cost(){return 0.5;}
+    public double cost(){return 0.5 + bread.cost();}
 }

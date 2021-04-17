@@ -10,9 +10,10 @@ public class BBQRib extends Meat{
     }
 
     @Override
-    public void addTopping(){bread.getToppings().add("BBQRib");}
+    public void addTopping(){bread.getToppings().add("BBQRib");
+    }
 
     @Override
-    public double cost(){return 5.0;}
+    public double cost(){return 5.0 + bread.cost();}
 
 }

@@ -16,9 +16,9 @@ public abstract class Bread {
         this.name = name;
     }
 
-    public double getPrice() {
-        return price;
-    }
+    public double getPrice() { return price; }
+
+    public double cost() {return 0;}
 
     public void setPrice(double price) {
         this.price = price;

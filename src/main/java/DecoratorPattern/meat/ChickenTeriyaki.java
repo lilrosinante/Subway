@@ -10,9 +10,10 @@ public class ChickenTeriyaki extends Meat{
     }
 
     @Override
-    public void addTopping(){bread.getToppings().add("ChickenTeriyaki");}
+    public void addTopping(){bread.getToppings().add("ChickenTeriyaki");
+    }
 
     @Override
-    public double cost(){return 6.0;}
+    public double cost(){return 6.0 + bread.cost();}
 
 }

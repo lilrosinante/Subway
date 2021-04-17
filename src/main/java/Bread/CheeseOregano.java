@@ -7,11 +7,13 @@ public class CheeseOregano extends Bread {
     public CheeseOregano() {
     }
 
-    public CheeseOregano(String name, double price) {
+    public CheeseOregano(String name) {
         this.name = name;
-        this.price = price;
         this.cheeseType = "Cheddar";
     }
+
+    @Override
+    public double cost(){return 3;}
 
     public String getCheeseType() {
         return cheeseType;

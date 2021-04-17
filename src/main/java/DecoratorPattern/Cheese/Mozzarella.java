@@ -10,9 +10,10 @@ public class Mozzarella extends Cheese{
     }
 
     @Override
-    public void addTopping(){bread.getToppings().add("Mozzarella");}
+    public void addTopping(){bread.getToppings().add("Mozzarella");
+    }
 
     @Override
-    public double cost(){return 1.5;}
+    public double cost(){return 1.5 + bread.cost();}
 
 }
