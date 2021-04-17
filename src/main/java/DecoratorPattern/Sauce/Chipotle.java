@@ -10,8 +10,9 @@ public class Chipotle extends Sauce {
     }
 
     @Override
-    public void addTopping(){bread.getToppings().add("Chipotle Sauce");}
+    public void addTopping(){bread.getToppings().add("Chipotle Sauce");
+    }
 
     @Override
-    public double cost(){return 2;}
+    public double cost(){return 2 + bread.cost();}
 }

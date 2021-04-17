@@ -10,9 +10,10 @@ public class ExtraBacon extends Extra{
     }
 
     @Override
-    public void addTopping(){bread.getToppings().add("ExtraBacon");}
+    public void addTopping(){bread.getToppings().add("ExtraBacon");
+    }
 
     @Override
-    public double cost(){return 1;}
+    public double cost(){return 1 + bread.cost();}
 
 }

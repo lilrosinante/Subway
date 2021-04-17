@@ -10,9 +10,9 @@ public class BBQ extends Sauce{
     }
 
     @Override
-    public void addTopping(){bread.getToppings().add("BBQ Sauce");}
+    public void addTopping(){bread.getToppings().add("BBQ Sauce"); }
 
     @Override
-    public double cost(){return 1;}
+    public double cost(){return 1 + bread.cost();}
 
 }
